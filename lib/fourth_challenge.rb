@@ -1,4 +1,5 @@
 def fourth_challenge
+<<<<<<< HEAD
  epic_tragedy = {
  :montague => {
      :patriarch => {name: "Lord Montague", age: "53"},
@@ -33,4 +34,37 @@ def fourth_challenge
      ]
  }
 }
+=======
+  epic_tragedy = {
+   :montague => {
+      :patriarch => {name: "Lord Montague", age: "53"},
+      :matriarch => {name: "Lady Montague", age: "54"},
+      :hero => {name: "Romeo", age: "15", status: "alive"},
+      :hero_friends => [
+        #your hashes here!
+        :friend_one => {
+          :name => "Benvolio",
+          :age => "17",
+          :attitude => 
+        },
+        :friend_two => {
+          :name =>{"Be"},
+          :age => {},
+          :attitude => {}
+        }
+      ]
+   }, 
+   :capulet => {
+      :patriarch => {name: "Lord Capulet", age: "50"},
+      :matriarch => {name: "Lady Capulet", age: "51"},
+      :heroine => {name: "Juliet", age: "15", status: "alive"},
+      :heroine_friends => [
+        #your hashes here!
+        
+      ]
+   }
+}
+
+
+>>>>>>> 5d109a4e783346953790178fee5a4bd5ec367509
 end
